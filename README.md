@@ -1,7 +1,7 @@
 24SevenOffice
 =============
 
-Wrapper class for the 24SevenOffice API.
+PHP Wrapper Class for the 24SevenOffice API.
 
 Usage example:
 ===
