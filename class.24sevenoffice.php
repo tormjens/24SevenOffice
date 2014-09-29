@@ -141,9 +141,9 @@ class Main_24SevenOffice {
 		$options = array ('trace' => 1, 'style' => SOAP_RPC, 'use' => SOAP_ENCODED);
 
 		$service = new SoapClient ( $this->service, $options );
-        $service->__setCookie("ASP.NET_SessionId", $_SESSION['ASP.NET_SessionId']);
+		$service->__setCookie("ASP.NET_SessionId", $_SESSION['ASP.NET_SessionId']);
 
-      	return $service;
+		return $service;
 
 	}
 
